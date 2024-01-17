@@ -3,10 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/remixicon/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <script src="/asset/js/script.js"></script>
+    <div class="container">
+      <div class="nav">
+        <div class="logo">
+          <span>LOGO</span>
+        </div>
+        <div class="cart">
+          <i class="ri-shopping-cart-2-fill"></i>
+          <span class="counter">0</span>
+        </div>
+      </div>
+      <div class="content">
+        <div class="cards">
+          <!-- <div class="card">
+            <img src="/assets/images/product-1.jpg" alt="product-1" />
+            <h5 class="name-product">Red T-Shirt</h5>
+            <span class="price">$ 120.00</span>
+            <input type="button" value="Add to Cart" />
+          </div> -->
+        </div>
+        <div class="my-carts">
+          <span class="my-cart-main-title">My Cart</span>
+          <div class="carts">
+            <!-- <div class="my-cart">
+              <div class="image">
+                <img src="/assets/images/product-1.jpg" alt="" />
+              </div>
+              <h5 class="name-product">Red T-Shirt</h5>
+              <span class="price">$ 120</span>
+              <span><i class="ri-delete-bin-7-fill delete-btn"></i></span>
+            </div> -->
+          </div>
+
+          <h5 class="cart-empty">Your cart is empty</h5>
+          <hr />
+          <div class="total">
+            <h3>Total</h3>
+            <span class="price">$ 0.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
